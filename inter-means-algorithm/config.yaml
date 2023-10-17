@@ -1,0 +1,13 @@
+os:
+  input_folder : './data/'  
+  output_folder : './results/default/'
+  output_folder_auto : './results/scikit-image/' 
+
+image : 
+  extensions : ['.jpg', '.jpeg', '.png','.bmp']
+
+processing :
+  mode : "manual" # "auto" or "manual"
+
+display:
+  save_histogram : "True"
